@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(236, 212, 165);
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+.menuu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menuu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hero {
+    /* background-image: url('e-shop-home.webp'); Assuming the image is in the same directory */
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    color: rgb(132, 39, 39);
+    text-align: center;
+ 
+}
+
+
+.shop-now-btn {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 500px;
+}
+.space{
+    padding: 70px;
+    margin-bottom: 40px;
+}
+.small{
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.products {
+    height: auto;
+    
+
+    padding: 10px 10px;
+    text-align: right;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+}
+
+
+
+
+
+.product-card {
+    /* width: 500px;
+    height: auto; */
+    /* width: 100%;
+    max-width: 500px; */
+    height: auto;
+    width: max-content;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+   
+   
+    
+}
+.plant{
+    
+    width: 200px;
+    display: flex;
+    margin: auto;
+    height: auto;
+    
+}
+.saw{
+    
+    width: 50px;
+    display: flex;
+    margin: auto;
+    height: auto;
+    
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
